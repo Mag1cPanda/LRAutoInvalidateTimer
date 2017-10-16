@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "NSTimer+AutoInvalidate.h"
 
 @interface ViewController ()
-
+{
+    NSTimer *timer;
+}
 @end
 
 @implementation ViewController
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    timer = [NSTimer scheduledTimerWithTimeInterval:1 block:^(NSTimer *timer) {
+        
+        NSLog(@"1");
+        
+    } userInfo:nil repeats:YES existObject:self];
+    
+    [timer fire];
 }
 
 

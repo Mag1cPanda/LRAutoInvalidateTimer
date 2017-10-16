@@ -13,6 +13,7 @@
 		09A9C4B91F7E3B640083B309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A9C4B81F7E3B640083B309 /* Assets.xcassets */; };
 		09A9C4BC1F7E3B640083B309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A9C4BA1F7E3B640083B309 /* LaunchScreen.storyboard */; };
 		09A9C4BF1F7E3B640083B309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A9C4BE1F7E3B640083B309 /* main.m */; };
+		09A9C4C71F7E3B7E0083B309 /* NSTimer+AutoInvalidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A9C4C61F7E3B7E0083B309 /* NSTimer+AutoInvalidate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		09A9C4BB1F7E3B640083B309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A9C4BD1F7E3B640083B309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09A9C4BE1F7E3B640083B309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09A9C4C51F7E3B7E0083B309 /* NSTimer+AutoInvalidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+AutoInvalidate.h"; sourceTree = "<group>"; };
+		09A9C4C61F7E3B7E0083B309 /* NSTimer+AutoInvalidate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+AutoInvalidate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				09A9C4BA1F7E3B640083B309 /* LaunchScreen.storyboard */,
 				09A9C4BD1F7E3B640083B309 /* Info.plist */,
 				09A9C4BE1F7E3B640083B309 /* main.m */,
+				09A9C4C51F7E3B7E0083B309 /* NSTimer+AutoInvalidate.h */,
+				09A9C4C61F7E3B7E0083B309 /* NSTimer+AutoInvalidate.m */,
 			);
 			path = LRAutoInvalidateTimer;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				09A9C4B41F7E3B640083B309 /* ViewController.m in Sources */,
 				09A9C4BF1F7E3B640083B309 /* main.m in Sources */,
+				09A9C4C71F7E3B7E0083B309 /* NSTimer+AutoInvalidate.m in Sources */,
 				09A9C4B11F7E3B640083B309 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
